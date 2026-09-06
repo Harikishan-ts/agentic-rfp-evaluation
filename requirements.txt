@@ -1,0 +1,9 @@
+streamlit
+openai
+langsmith
+pypdf
+pydantic
+pandas
+python-dotenv
+reportlab
+pytest

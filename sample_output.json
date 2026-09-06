@@ -1,0 +1,340 @@
+{
+  "rfp_run_id": "20260903_175945",
+  "suppliers": [
+    {
+      "rfp_run_id": "20260903_175945",
+      "supplier_name": "NexaWorks",
+      "submission_date": "2026-01-14",
+      "experience_rating": 9.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The proposal outlines a comprehensive service\u2011oriented architecture with API gateway, integration adapters, managed database, automated deployment pipelines, centralized logging, and a scalable worker tier, plus clear component responsibilities and migration sequencing, indicating strong technical fit.",
+          "evidence": [
+            "service-oriented architecture with API gateway, integration adapters, managed database, automated deployment pipelines, centralized logging, and a scalable worker tier.",
+            "clear component responsibilities and migration sequencing."
+          ],
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The supplier provides a detailed 16\u2011week implementation plan with explicit milestones (discovery 2 weeks, design 3 weeks, build 6 weeks, integration 3 weeks, acceptance 1 week, cutover 1 week) and a well\u2011structured team (delivery manager, architect, five engineers, QA, DevOps, business analyst), demonstrating a feasible and organized delivery approach.",
+          "evidence": [
+            "The 16-week plan has explicit milestones: discovery 2 weeks, design 3 weeks, build 6 weeks, integration 3 weeks, acceptance 1 week, and cutover 1 week.",
+            "The team includes a delivery manager, architect, five engineers, QA, DevOps, and business analyst."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Pricing is transparent with an implementation fee of $350,000, annual support of $54,000, and estimated cloud costs of $7,000\u2011$10,000 per month. Clear assumptions (timely customer access, two review cycles, no major scope additions) provide good value for money, though limited detail on cost optimization.",
+          "evidence": [
+            "Implementation fee: $350,000. Annual support: $54,000. Estimated cloud cost is $7,000-$10,000 per month. Assumptions include timely customer access, two review cycles, and no major scope additions."
+          ],
+          "weight": 20.0,
+          "benchmark": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "The proposal describes robust security controls (SSO, RBAC, encryption, centralized audit logs, backup testing, vulnerability management, secure SDLC, incident response) but notes that certification artifacts will be provided later during due diligence, which reduces confidence in compliance evidence.",
+          "evidence": [
+            "Controls include SSO, RBAC, encryption, centralized audit logs, backup testing, vulnerability management, secure SDLC, and incident response.",
+            "The proposal says certification artifacts can be provided during due diligence rather than including them in the response."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_performance": 77.7778
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "NexaWorks offers a strong support model (24x7, 30\u2011minute critical incident response, named service manager, monthly reports, training, knowledge transfer, structured escalation) and cites four similar projects with 7 years of relevant experience, though references are illustrative only, limiting verifiability.",
+          "evidence": [
+            "NexaWorks provides 24x7 support, 30-minute critical-incident response, a named service manager, monthly service reports, training, knowledge transfer, and a structured escalation process.",
+            "It cites four similar projects and reports 7 years of relevant experience."
+          ],
+          "weight": 10.0,
+          "benchmark": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        }
+      ],
+      "warnings": [],
+      "absolute_score": 83.0,
+      "ppi": 95.5556,
+      "final_rank": 1
+    },
+    {
+      "rfp_run_id": "20260903_175945",
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-01-15",
+      "experience_rating": 8.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The proposal describes a technically mature, cloud-native architecture with modular APIs, containerized services, CI/CD, multi-zone deployment, observability, and strong security controls, indicating high technical capability.",
+          "evidence": [
+            "Apex proposes a modular API platform, containerized services, event-driven integrations, automated CI/CD, multi-zone deployment, observability, and documented interface contracts."
+          ],
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "A detailed 20-week delivery schedule with defined phases and a qualified team is provided, showing a feasible implementation plan, though assumptions about stakeholder availability are noted.",
+          "evidence": [
+            "Delivery is planned over 20 weeks: discovery 3 weeks, architecture 3 weeks, build 8 weeks, integration testing 4 weeks, and production readiness 2 weeks. Team includes a solution architect, six engineers, QA, DevOps, and a security lead."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_performance": 88.8889
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "The total cost is higher than other proposals, with a $480,000 fixed fee, $72,000 annual support, and estimated cloud consumption of $8,000-$12,000 per month, indicating lower commercial value for money.",
+          "evidence": [
+            "Fixed implementation fee: $480,000. Annual support: $72,000. Cloud consumption is estimated separately at $8,000-$12,000 per month. The supplier is comparatively expensive and gives a moderate 20-week delivery schedule."
+          ],
+          "weight": 20.0,
+          "benchmark": 8.0,
+          "gap": -2.0,
+          "relative_performance": 75.0
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The design includes comprehensive security controls and compliance evidence such as encryption, SSO, RBAC, audit logging, vulnerability scanning, penetration testing, ISO 27001-aligned practices, and SOC 2 deliverables, demonstrating strong security and compliance.",
+          "evidence": [
+            "The design includes encryption in transit and at rest, SSO, role-based access, audit logging, vulnerability scanning, annual penetration testing, incident response procedures, and data-retention controls. The proposal lists ISO 27001-aligned practices and SOC 2 evidence as planned deliverables."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Apex offers 24x7 incident escalation, named technical account management, quarterly service reviews, and three enterprise references, with 9 years of relevant experience, indicating solid support and experience.",
+          "evidence": [
+            "Apex provides 24x7 incident escalation, named technical account management, quarterly service reviews, and three comparable enterprise references. It reports 9 years of relevant delivery experience."
+          ],
+          "weight": 10.0,
+          "benchmark": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        }
+      ],
+      "warnings": [],
+      "absolute_score": 81.0,
+      "ppi": 92.7778,
+      "final_rank": 2
+    },
+    {
+      "rfp_run_id": "20260903_175945",
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-01-13",
+      "experience_rating": 9.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "The proposal provides a high\u2011level description of a cloud\u2011hosted platform and integration hub but lacks detailed API contract specifications, error handling procedures, and integration sequencing, limiting technical depth.",
+          "evidence": [
+            "Orbit proposes a cloud\u2011hosted platform with reusable services and an integration hub.",
+            "gives only high\u2011level detail about API contracts, error handling, and integration sequencing."
+          ],
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_performance": 66.6667
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "Implementation plan is outlined with an 18\u2011week timeline, defined phases, and staffing, but milestone details are high\u2011level and rely on assumptions about stakeholder availability.",
+          "evidence": [
+            "targets 18 weeks with discovery, configuration, development, testing, and launch phases.",
+            "Staffing includes an engagement lead, architect, four engineers, QA, and a shared security specialist. Milestones are described at a high level."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_performance": 77.7778
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "Pricing is transparent with clear implementation fee, support cost, and cloud consumption range, indicating reasonable value for money.",
+          "evidence": [
+            "Implementation fee: $390,000. Annual support: $60,000. Cloud consumption is estimated at $8,000-$11,000 monthly. Pricing is transparent and includes a change\u2011control assumption for work outside the stated scope."
+          ],
+          "weight": 20.0,
+          "benchmark": 8.0,
+          "gap": -1.0,
+          "relative_performance": 87.5
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "Security controls are listed (encryption, identity federation, etc.) and risk mitigations are described, but implementation details are limited compared to other vendors.",
+          "evidence": [
+            "Orbit describes encryption, identity federation, least privilege, audit trails, backup, vulnerability scanning, and incident management.",
+            "Primary risks and mitigations: integration dependencies are managed through early interface workshops; delivery risk is reduced through milestone acceptance; operational risk is reduced through monitoring, backups, and incident procedures."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_performance": 66.6667
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Strong experience indicated by 12 years, five references, and 24/7 support, showing capability to deliver and support.",
+          "evidence": [
+            "Orbit offers 24x7 critical support, a named account lead, quarterly reviews, training, and five relevant references. It reports 12 years of relevant experience and emphasizes successful work with complex enterprise customers."
+          ],
+          "weight": 10.0,
+          "benchmark": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        }
+      ],
+      "warnings": [],
+      "absolute_score": 66.0,
+      "ppi": 76.3889,
+      "final_rank": 3
+    },
+    {
+      "rfp_run_id": "20260903_175945",
+      "supplier_name": "BrightPath Tech",
+      "submission_date": "2026-01-12",
+      "experience_rating": 5.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "The proposal outlines a technical architecture (managed cloud app, REST APIs, relational DB, monitoring, integration layer) but lacks detailed interface designs and depth, indicating moderate technical capability.",
+          "evidence": [
+            "BrightPath proposes a managed cloud application using standard REST APIs, a relational database, hosted monitoring, and a small integration layer. The integration section identifies major systems but does not provide detailed interface designs."
+          ],
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_performance": 66.6667
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "Implementation plan includes a clear 12\u2011week schedule with defined phases, team composition, assumptions, and milestones, showing reasonable feasibility.",
+          "evidence": [
+            "The schedule is 12 weeks: requirements 2 weeks, build 6 weeks, testing 3 weeks, and launch 1 week. The core team is four engineers, one project manager, and shared QA. Key delivery assumptions include access to business stakeholders, timely decisions, and controlled change management. The supplier will provide documentation and knowledge transfer at project milestones."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_performance": 77.7778
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Pricing is transparent with a low implementation fee and annual support, plus cloud costs passed through at cost, suggesting good commercial value.",
+          "evidence": [
+            "Implementation fee: $265,000. Annual support: $36,000. Cloud charges are expected to be passed through at cost. The proposal provides a simple price table and assumes customer availability for requirements workshops."
+          ],
+          "weight": 20.0,
+          "benchmark": 8.0,
+          "gap": 0.0,
+          "relative_performance": 100.0
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "score": 4.0,
+          "max_score": 10.0,
+          "justification": "Security controls are mentioned (HTTPS, encrypted storage, password policies, backups) but lack detailed control matrices, certifications, privacy processes, or auditability, indicating limited compliance evidence.",
+          "evidence": [
+            "BrightPath states that the service will use HTTPS, encrypted storage, password policies, and backups. It mentions security reviews but does not provide a detailed control matrix, certification evidence, privacy process, or auditability plan."
+          ],
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -5.0,
+          "relative_performance": 44.4444
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "score": 5.0,
+          "max_score": 10.0,
+          "justification": "Support includes business\u2011hours next\u2011business\u2011day response, and the supplier cites two small comparable projects and three years of relevant experience, though references are illustrative, indicating moderate experience.",
+          "evidence": [
+            "Business-hours support is included with next-business-day response for standard incidents. The supplier cites two small comparable projects and reports 3 years of relevant experience. References in this fictional document are illustrative only and do not identify real customers."
+          ],
+          "weight": 10.0,
+          "benchmark": 8.0,
+          "gap": -3.0,
+          "relative_performance": 62.5
+        }
+      ],
+      "warnings": [],
+      "absolute_score": 61.0,
+      "ppi": 70.6944,
+      "final_rank": 4
+    }
+  ]
+}
